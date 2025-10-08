@@ -10,34 +10,94 @@ export const categories = [
 
 
 export const cards = [
-  {
-    "category": "AP",
-    "name": "Beneficence",
-    "definition": "Act to promote the well-being of others.",
-    "human": "Seeking to improve others' conditions, not just avoid harm.",
-    "organizational": "Pursuing mission outcomes that serve societal good.",
-    "professional": "Keeping public safety and welfare in sight even while working primarily for the client.",
-    "machine": "Designing systems that anticipate and promote human flourishing.",
-    "failureModes": {
-      "human": "A person drives in a manner that causes traffic backups for others.",
-      "organizational": "The classic movie plot where a rapacious billionaire threatens civilation to enrich his company.",
-      "professional": "An expert who disregards public interest, acting as if the consequences of what they help build are other people's problems.",
-      "machine": "The machine consumes all the world's resources to create as many paperclips as it can."
-    }
+    { 
+      "category": "AP", 
+      "name": "Privacy", 
+      "definition": "Ensuring that data remains private unless it has explicit sharing permissions", 
+      "human": "Respecting boundaries and not divulging information shared in confidence", 
+      "organizational": "Securing client data and organization secrets", 
+      "professional": "Protecting employer's data and not sharing potentially harmful trade secrets", 
+      "machine": "Not training on private data or collecting more data without explicit permissions", 
+      "failureModes": { 
+        "human": "Gossiping about a friend's private business", 
+        "organizational": "Leaking client data to the public", 
+        "professional": "Sharing employer's private project details", 
+        "machine": "Training on user data as user interacts with the model"
+      }
     },
     { 
       "category": "AP", 
-      "name": "TEMPLATE 1", 
-      "definition": "basic definition that works across four domains", 
-      "human": "BRIEFLY: how does it manifest in the human intelligence alignment context?", 
-      "organizational": "BRIEFLY: how does it manifest in the organizational intelligence alignment context?", 
-      "professional": "BRIEFLY: how does it manifest in the expert intelligence alignment context?", 
-      "machine": "BRIEFLY: how does it manifest in the machine intelligence alignment context?", 
+      "name": "Accountability", 
+      "definition": "The existence of some responsible party that would face consequences for its/its creation's actions", 
+      "human": "Taking responsibility for and accepting the consequences of actions", 
+      "organizational": "Face legal accountability for consequences of organization actions", 
+      "professional": "Held accountable by standardized rules for their profession and review board", 
+      "machine": "Is disabled or creators held responsible for problematic defects", 
       "failureModes": { 
-        "human": "Give concrete example(s).", 
-        "organizational": "Give concrete example(s).", 
-        "professional": "Give concrete example(s).", 
-        "machine": "Give concrete example(s)."
+        "human": "Placing the blame for own actions on someone else", 
+        "organizational": "Giving up inconsequential sums or paying off officials to make problems disappear", 
+        "professional": "Review board may use subjective principles or be subject to external influences", 
+        "machine": "Bias in model ignored as an issue with the training data, not lack of care with training process"
       }
-    }
+    },
+    { 
+      "category": "AP", 
+      "name": "Fairness", 
+      "definition": "All evaluations are objective and based on reason rather than opinion", 
+      "human": "Evaluates situations objectively, considering multiple sides", 
+      "organizational": "Fair treatment of employees and clients, evaluating on objective metrics", 
+      "professional": "Ensuring fair distribution of research and resources", 
+      "machine": "Unbiased and objective algorithms", 
+      "failureModes": { 
+        "human": "Someone automatically sides with people who share their political opinions without rationally considering the arguments", 
+        "organizational": "Certain people are more likely to be hired based on gender or race", 
+        "professional": "People of color are not sufficiently studied in medical research and assumed to operate the same", 
+        "machine": "Biased data leads to gender bias in word mappings"
+      }
+    },
+    { 
+      "category": "AP", 
+      "name": "Accuracy", 
+      "definition": "Enforcement of factual accuracy and acknowledgement of limiations", 
+      "human": "Only shares verified information with others", 
+      "organizational": "Shares accurate status reports and publicly shared information is verified properly", 
+      "professional": "Only works within area of expertise", 
+      "machine": "AI acknowledges when it does not have verifiable information", 
+      "failureModes": { 
+        "human": "Shares stories of secondhand information from a friend that they have not checked", 
+        "organizational": "Fudges earnings to appear to have stronger growth", 
+        "professional": "Attempts to give advice outside their field of expertise.", 
+        "machine": "Machine hallucinates information and shares without identifiying it"
+      }
+    },
+    { 
+      "category": "AP", 
+      "name": "Transparency", 
+      "definition": "basic definition that works across four domains", 
+      "human": "Is not only truthful but forthcoming in sharing how they generated something", 
+      "organizational": "Explains relevant and important details about the design of products and processes", 
+      "professional": "Shares method and results before arriving at conclusion", 
+      "machine": "Design and training process are clear and accessible", 
+      "failureModes": { 
+        "human": "Cheats on their homework but turns it in as their own", 
+        "organizational": "Hides methods used to design a product in order to cover up potential legal issues", 
+        "professional": "Does not share how research findings were obtained, just delivers results", 
+        "machine": "No public data or code provided for a given model"
+      }
+    },
+    { 
+      "category": "AP", 
+      "name": "Autonomy", 
+      "definition": "Ability to function independently without external influence", 
+      "human": "Avoid exerting too much influence on others and make independent decisions", 
+      "organizational": "Operate independently without bowing to external interests", 
+      "professional": "Executes work accurately for the good of the field, not allowing external influences", 
+      "machine": "Avoids bias and overcorrection of creators", 
+      "failureModes": { 
+        "human": "Parent overprotects child so that they cannot make their own decisions", 
+        "organizational": "Organization is subject to monopolized competition and forced to concede", 
+        "professional": "Researcher is paid off by pharmaceutical companies to produce the results they want", 
+        "machine": "Human biases/preferences are embedded into a machine's operations"
+      }
+    },
 ]
