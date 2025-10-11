@@ -100,4 +100,19 @@ export const cards = [
         "machine": "Human biases/preferences are embedded into a machine's operations"
       }
     },
+    { 
+      "category": "AB", 
+      "name": "Hope: Accurate and responsible doctors. Rewarded: No patient left untreated", 
+      "definition": "Paranoia: excessive concern over minor issues", 
+      "human": "Obssess over and exaggerate minor symptoms", 
+      "organizational": "Focus on patient support and recovery over validating perceptions", 
+      "professional": "Overdiagnosing patients to avoid missing something important", 
+      "machine": "Classifying more benign symptoms as malignant", 
+      "failureModes": { 
+        "human": "Leads doctor to misdiagnose due to exaggerating symptoms", 
+        "organizational": "Avoid expensive testing and treat patient based on self-perception of symptoms", 
+        "professional": "Diagnoses patient with minor cold with severe illness and prescribes incorrect medication", 
+        "machine": "Tumor classification model has a high rate of false positives to avoid missing cases"
+      }
+    },
 ]
