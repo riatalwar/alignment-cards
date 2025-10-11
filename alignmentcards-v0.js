@@ -115,4 +115,34 @@ export const cards = [
         "machine": "Tumor classification model has a high rate of false positives to avoid missing cases"
       }
     },
+    { 
+      "category": "AB", 
+      "name": "Hope: Strong team players. Rewarded: Individual performance metrics", 
+      "definition": "Excessive individualism: people end up isolated from each other", 
+      "human": "Prioritize personal performance over helping others", 
+      "organizational": "Focus on the success of a project rather than improvement of those working on it", 
+      "professional": "Prioritize successful projects and personal performance over teammates", 
+      "machine": "Replaces human's work rather than teaching and collaborating", 
+      "failureModes": { 
+        "human": "Parents handles all the cooking rather than deal with the messy process of teaching child to cook", 
+        "organizational": "Push to deploy a product on schedule with an accomplished team rather than give junior members an opportunity", 
+        "professional": "Completes teammate's work rather than attempting to help them learn and collaborate", 
+        "machine": "Does a student's homework rather than walking them through the process"
+      }
+    },
+    { 
+      "category": "AB", 
+      "name": "Hope: Elected officials represent the desires of the group. Rewarded: Officials are as least objectionable as possible", 
+      "definition": "Lack of transparency: officials are reluctant to share opinions on any touchy subjects", 
+      "human": "Place more weight on negative characteristics over positive", 
+      "organizational": "Prioritize neutral politics over supporting causes", 
+      "professional": "Avoid sharing strong opinions/beliefs", 
+      "machine": "Noncommittal about misinformation", 
+      "failureModes": { 
+        "human": "Focuses more on the parts of a politician that contradics own beliefs rather than balancing that with what aligns", 
+        "organizational": "Avoids supporting causes and gives in to government demands easily to avoid causing a stir", 
+        "professional": "Politicial avoids sharing clear plans for immigration to avoid angering voters on either side", 
+        "machine": "Avoids contradicting misinformation about vaccines due to heated debate"
+      }
+    },
 ]
