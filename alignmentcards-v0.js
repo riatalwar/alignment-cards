@@ -7,7 +7,7 @@ export const categories = [
     "description": "Alignment principles are contestable, general-purpose, broadly recognized ethical or social or normative commitments that can serve as warrants for recommending or evaluating an agent's course of action in contexts where alignment and cooperation with others matters."
   },
   {
-    "category": "AT",
+    "code": "AT",
     "name": "trustworthiness",
     "definition": "ability to align actions, words, and intentions to develop trust",
     "people": "consistent behavior and actions in regular interactions without any hidden intentions",
