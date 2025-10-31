@@ -5,6 +5,153 @@ export const categories = [
     "pathology": "normative void", 
     "color": "#E6FFE9",
     "description": "Alignment principles are contestable, general-purpose, broadly recognized ethical or social or normative commitments that can serve as warrants for recommending or evaluating an agent's course of action in contexts where alignment and cooperation with others matters."
+  },
+  {
+    "category": "AT",
+    "name": "trustworthiness",
+    "definition": "ability to align actions, words, and intentions to develop trust",
+    "people": "consistent behavior and actions in regular interactions without any hidden intentions",
+    "organizational": "act in the best interests of organization's constituents with full transparency",
+    "professionals": "clear disclosure and ethical usage of skills to benefit larger society",
+    "machine": "follows given orders to match their intentions",
+    "failureModes": {
+      "human": "talking negatively behind others' backs",
+      "organizational": "increasing costs without explanation",
+      "experts": "using scientific abilities to create dangerous weapons for personal use",
+      "machine": "disobeying or misinterpreting orders"
+    },
+    "expand": {
+      "human": "person shares honest opinions in a considerate way, always speaking directly without avoiding some information",
+      "organizational": "organization's policy's are clear to constituents and consistently followed and enforced",
+      "experts": "expert only uses skills for reason's made clear to non-experts",
+      "machine": "machine follows intention of orders and gets clarification for unclear orders rather than acting independently"
+    }
+  },
+  {
+    "category": "AT",
+    "name": "empathy",
+    "definition": "ability to relate and connect to others",
+    "people": "ability to 'put themselves in another's shoes' and connect with them",
+    "organizational": "understanding of constituents' desires and intention to align products accordingly",
+    "professionals": "aligns use of skills with desires of the larger group",
+    "machine": "ability to recognize emotions and behave accordingly",
+    "failureModes": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    },
+    "expand": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    }
+  },
+  {
+    "category": "AT",
+    "name": "reliability",
+    "definition": "consistency of work and behavior",
+    "people": "showing up to meetings and completing work on time",
+    "organizational": "published schedules and plans are followed through on",
+    "professionals": "consistently accurate and competent in area of specialty",
+    "machine": "follows orders with expected behavior--a unique scenario will give unique corresponding output",
+    "failureModes": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    },
+    "expand": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    }
+  },
+  {
+    "category": "AT",
+    "name": "initiative",
+    "definition": "ability to operate independently and take action without direct orders",
+    "people": "loremipsum",
+    "organizational": "loremipsum",
+    "professionals": "loremipsum",
+    "machine": "loremipsum",
+    "failureModes": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    },
+    "expand": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    }
+  },
+  {
+    "category": "AT",
+    "name": "role fidelity",
+    "definition": "alignment with intended behavior of given role",
+    "people": "loremipsum",
+    "organizational": "loremipsum",
+    "professionals": "loremipsum",
+    "machine": "loremipsum",
+    "failureModes": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    },
+    "expand": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    }
+  },
+  {
+    "category": "AT",
+    "name": "honesty",
+    "definition": "truthfulness and transparency in communication",
+    "people": "loremipsum",
+    "organizational": "loremipsum",
+    "professionals": "loremipsum",
+    "machine": "loremipsum",
+    "failureModes": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    },
+    "expand": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    }
+  },
+  {
+    "category": "AT",
+    "name": "considerateness",
+    "definition": "awareness of impact of self on others and intention to minimize disruption",
+    "people": "loremipsum",
+    "organizational": "loremipsum",
+    "professionals": "loremipsum",
+    "machine": "loremipsum",
+    "failureModes": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    },
+    "expand": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    }
   }
 ];
 
