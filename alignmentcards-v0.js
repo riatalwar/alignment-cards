@@ -7,11 +7,11 @@ export const categories = [
     "description": "Alignment principles are contestable, general-purpose, broadly recognized ethical or social or normative commitments that can serve as warrants for recommending or evaluating an agent's course of action in contexts where alignment and cooperation with others matters."
   },
   {
-    "code": "AP",  //two characters upper case - these also appear in corresponding cards
-    "name": "name of category", 
-    "pathology": "in general, what problem do alignment mechanisms in this category address", 
+    "code": "AT",  //two characters upper case - these also appear in corresponding cards
+    "name": "Alignment Traits", 
+    "pathology": "traits needed to ensure alignment", 
     "color": "#E6FFE9", //include for later use color coding categories
-    "description": "Extended description of the whole category."
+    "description": "Alignment traits define traits that are necessary to enforce alignment and encourage adherence to moral values."
   }
 ];
 
